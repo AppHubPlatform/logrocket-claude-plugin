@@ -21,6 +21,7 @@ This plugin connects with `?toolsets=all`, so the full set of LogRocket MCP tool
 | `find_sessions` | `sessions` | Filter LogRocket sessions by user, URL, time range, events, and more |
 | `watch_sessions` | `sessions` | Analyze or extract details from specific sessions |
 | `build_metric` | `metrics` | Query LogRocket analytics data |
+| `find_issues` | `issues` | List a project's issues, filtered by severity, triage status, type, and time range |
 
 To restrict which tools are exposed, change the `toolsets` query parameter on the MCP server URL in `plugins/logrocket/.mcp.json` (e.g. `?toolsets=sessions,metrics`). See the [MCP tools docs](https://docs.logrocket.com/docs/mcp#tools) for details.
 
