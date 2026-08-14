@@ -20,6 +20,7 @@ This plugin connects with `?toolsets=all`, so the full set of LogRocket MCP tool
 | `use_logrocket` | `ask-galileo` | Run natural language queries against your LogRocket data, powered by Ask Galileo |
 | `find_sessions` | `sessions` | Filter LogRocket sessions by user, URL, time range, events, and more |
 | `watch_sessions` | `sessions` | Analyze or extract details from specific sessions |
+| `get_network_entries` | `sessions` | Retrieve a session's network requests and responses as a HAR document |
 | `build_metric` | `metrics` | Query LogRocket analytics data |
 | `find_issues` | `issues` | List a project's issues, filtered by severity, triage status, type, and time range |
 
